@@ -10,7 +10,7 @@ source:
   sha256: 3c67d8b4f537d7434b5a59b0c2724f449776673864e55c4da18e8f835b0d4926
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pythonfmu3 = pythonfmu3.__main__:cli_main
 
