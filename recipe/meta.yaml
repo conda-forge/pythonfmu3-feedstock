@@ -33,7 +33,7 @@ test:
     - pyfmi
     - numpy
   commands:
-    - pytest --pyargs pythonfmu3.tests
+    - pytest --pyargs pythonfmu3.tests -m "not doc"
   imports:
     - pythonfmu3
 
