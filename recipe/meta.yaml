@@ -1,5 +1,5 @@
 {% set name = "pythonfmu3" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/StephenSmith25/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 48a6acb5d79ec7780c068fa10ec16fc13b27d7bf9ea7db49ecae184ed96f605b
+  sha256: 96648756f7ac345daafad3d84d9d31111e4bf4b4c09c2d0dc82aa3af1858599d
 
 build:
   number: 0
